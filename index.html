@@ -4,24 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- TODO: Add a page title -->
+  <title>Richmond, VA – Parcels, Schools &amp; Streams</title>
 
-  <!-- TODO: Add Leaflet CSS -->
-  
-  <!-- TODO: Add Leaflet JavaScript -->
-  
-  <!-- TODO: Add your custom stylesheet -->
+  <link rel="icon" href="data:,">
 
-  <!-- TODO: Add your JavaScript file -->
-  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="module" src="js/main.js"></script>
 </head>
 <body>
 
-  <!-- TODO: Add a header for your page -->
+  <header>
+    <h1>Richmond, VA: Parcels, Schools &amp; Streams</h1>
+  </header>
 
-  <!-- TODO: Map container (Leaflet targets this div by ID) -->
-    
-  <!-- TODO: Add a footer for your page -->
-  
+  <main>
+    <div id="map"></div>
+    <div id="status">Loading data…</div>
+  </main>
+
+<footer>
+  Data: City of Richmond GIS. Basemap: OpenStreetMap contributors.
+</footer>
+
 </body>
 </html>
